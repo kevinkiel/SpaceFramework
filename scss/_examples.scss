@@ -1,0 +1,30 @@
+.clearfix{
+	overflow: hidden;
+}
+
+.area-margin{
+	background: rgba(#C6E746,.5);
+	width: 100%;
+}
+
+.area-padding{
+	background: #2b81af;
+}
+
+.description{
+	background: #fff;
+}
+
+.code-container{
+	position: relative;
+
+	code{
+		position: absolute;
+		top: 5px;
+		left: 5px;
+		background: #333;
+		color: #fff;
+		padding: 2px;
+		font-size: 12px;
+	}
+}

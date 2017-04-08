@@ -26,6 +26,13 @@ $space-object-settings: (
 			large:(2.5rem, 2.5rem, 2.5rem, 2.5rem)
 		)
 	),
+	block:(//Defines alignment related to blocks
+		viewports:(
+			small:(1.25rem, 1.25rem, 1.25rem, 1.25rem),
+			medium:(1.5rem, 1.5rem, 1.5rem, 1.5rem),
+			large:(2rem, 2rem, 2rem, 2rem)
+		)
+	)
 ) !default;
 
 $space-settings: (
