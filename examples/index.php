@@ -5,56 +5,102 @@
 </head>
 <body>
 <h1>Documentation of the SpaceFramework</h1>
-<div class="clearfix">
 
-	<section class="site-margin-vertical code-container description">
-		<div class="site-position-vertical-negative space-absolute area-margin">
-
-		</div>
-		<code class="site-margin-top-negative ">.site-margin</code>
-			<h2>Example normal use of padding</h2>
+<div class="code-container site-margin-vertical">
+	<div class="site-position-vertical-negative site-absolute area-margin"></div>
+	<section class="block-margin-vertical code-container">
+		<div class="block-position-vertical-negative site-absolute area-margin"></div>
 
 		<div class="site-padding area-padding code-container">
-			<code>.block-padding</code>
-			<div class="description block-padding">
-				Example of default <pre>site-object</pre>
+			<div class="description">
+				<?php include('lorem.php'); ?>
 			</div>
 		</div>
 	</section>
 
-	<section class="area-margin site-margin-vertical code-container">
-		<code class="site-margin-top-negative ">.site-margin</code>
-		<div class="site-padding area-padding">
-			<div class="description block-padding">
-				Normal site padding
-			</div>
-		</div>
-	</section>
 
-	<!-- block object -->
 	<section class="block-margin-vertical code-container">
-		<code class="block-margin-top-negative ">.block-margin</code>
-		<div>
-			<h2 class="description">Example normal use of padding</h2>
-		</div>
-
-		<div class="block-padding area-padding code-container">
-			<code>.block-padding</code>
-			<div class="description block-padding">
-				Example of default <pre>block-object</pre>
+		<div class="block-position-vertical-negative site-absolute area-margin"></div>
+		<div class="site-padding-horizontal area-padding">
+			<div class="description code-container">
+				<?php include('lorem.php'); ?>
 			</div>
 		</div>
 	</section>
 
 	<section class="block-margin-vertical code-container">
-		<code class="block-margin-top-negative">.block-margin</code>
-		<div class="block-padding area-padding">
-			<div class="description block-padding">
-				Normal site padding
+		<div class="block-position-vertical-negative site-absolute area-margin"></div>
+		<div class="site-padding-vertical area-padding">
+			<div class="description code-container">
+				<?php include('lorem.php'); ?>
 			</div>
 		</div>
 	</section>
+
+	<section class="block-margin-vertical code-container">
+		<div class="block-position-vertical-negative site-absolute area-margin"></div>
+		<div class="site-padding-top area-padding">
+			<div class="description code-container">
+				<?php include('lorem.php'); ?>
+			</div>
+		</div>
+	</section>
+
+	<section class="block-margin-vertical code-container">
+		<div class="block-position-vertical-negative site-absolute area-margin"></div>
+		<div class="site-padding-right area-padding">
+			<div class="description code-container">
+				<?php include('lorem.php'); ?>
+			</div>
+		</div>
+	</section>
+
+	<section class="block-margin-vertical code-container">
+		<div class="block-position-vertical-negative site-absolute area-margin"></div>
+		<div class="site-padding-bottom area-padding">
+			<div class="description code-container">
+				<?php include('lorem.php'); ?>
+			</div>
+		</div>
+	</section>
+
+
+	<section class="block-margin-vertical code-container">
+		<div class="block-position-vertical-negative site-absolute area-margin"></div>
+		<div class="site-padding-left area-padding">
+			<div class="description code-container">
+				<?php include('lorem.php'); ?>
+			</div>
+		</div>
+	</section>
+
 </div>
+
+
+<!-- block object --><div class="site-margin-vertical code-container">
+	<div class="site-position-vertical-negative site-absolute area-margin"></div>
+	<section class="block-margin-vertical code-container">
+		<div class="block-position-vertical-negative block-absolute area-margin"></div>
+		<code class="block-margin-top-negative ">.block-margin</code>
+	<div>
+	</div>
+
+	<div class="block-padding area-padding code-container">
+		<div class="description block-padding">
+			Example of default
+			<pre>block-object</pre>
+		</div>
+	</div>
+</section>
+
+<section class=" block-margin-vertical code-container">
+	<div class="block-position-vertical-negative site-absolute area-margin"></div>
+	<div class="block-padding area-padding">
+		<div class="description block-padding">
+			Normal site padding
+		</div>
+	</div>
+</section></div>
 
 
 </body>

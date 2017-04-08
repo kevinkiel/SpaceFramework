@@ -3,8 +3,9 @@
 }
 
 .area-margin{
-	background: rgba(#C6E746,.5);
+	background: rgba(#f90,.5);
 	width: 100%;
+	z-index: -1;
 }
 
 .area-padding{
@@ -12,19 +13,36 @@
 }
 
 .description{
-	background: #fff;
+	background: rgba(#fff,.2);
+	padding:1em;
+
+
+	> *:first-child{
+		margin-top: 0;
+	}
+
+	> *:last-child{
+		margin-bottom: 0;
+	}
 }
 
 .code-container{
 	position: relative;
 
-	code{
+	> code{
+		opacity: .1;
 		position: absolute;
 		top: 5px;
-		left: 5px;
+		right: 5px;
 		background: #333;
 		color: #fff;
 		padding: 2px;
 		font-size: 12px;
+	}
+
+	&:hover{
+		> code{
+			opacity: 1;
+		}
 	}
 }
