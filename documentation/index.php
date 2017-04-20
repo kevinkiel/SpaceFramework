@@ -17,7 +17,7 @@
 </div>
 <div class="raster">
 	<div class="container">
-		<div class="code-container site-margin-vertical">
+		<div class="site-margin-vertical">
 			<section class="block-margin-vertical">
 				<div class="site-padding area-padding">
 					<div class="description">
@@ -91,7 +91,7 @@
 </div>
 <div class="raster">
 	<div class="container">
-		<div class="code-container site-margin-vertical">
+		<div class="site-margin-vertical">
 			<section class="block-margin-vertical">
 				<div class="medium-site-padding-left area-padding">
 					<div class="description">
@@ -129,14 +129,40 @@
 </div>
 <div class="raster">
 	<div class="container">
-		<div class="code-container site-margin-vertical">
-			<section class="block-margin-vertical site-margin-horizontal-negative">
-				<div class="description">
-					<code>.site-margin-horizontal-negative</code>
-					<?php include('inc/lorem.php'); ?>
+		<div class="area-gray site-margin-horizontal">
+			<div class="site-margin-vertical">
+				<section class="block-margin-vertical">
+					<div class="description">
+						<code>default</code>
+						<?php include('inc/lorem.php'); ?>
 
-				</div>
-			</section>
+					</div>
+				</section>
+
+				<section class="block-margin-vertical site-margin-left-negative">
+					<div class="description">
+						<code>.site-margin-left-negative</code>
+						<?php include('inc/lorem.php'); ?>
+
+					</div>
+				</section>
+
+				<section class="block-margin-vertical site-margin-right-negative">
+					<div class="description">
+						<code>.site-margin-right-negative</code>
+						<?php include('inc/lorem.php'); ?>
+
+					</div>
+				</section>
+
+				<section class="block-margin-vertical site-margin-horizontal-negative">
+					<div class="description">
+						<code>.site-margin-horizontal-negative</code>
+						<?php include('inc/lorem.php'); ?>
+
+					</div>
+				</section>
+			</div>
 		</div>
 	</div>
 </div>
