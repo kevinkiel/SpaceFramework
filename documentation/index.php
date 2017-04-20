@@ -128,8 +128,8 @@
 	<h2>Margin Negative</h2>
 </div>
 <div class="raster">
-	<div class="container">
-		<div class="area-gray site-margin-horizontal">
+	<div class="container area-margin">
+		<div class="area-gray area-margin site-margin-horizontal">
 			<div class="site-margin-vertical">
 				<section class="block-margin-vertical">
 					<div class="description">
@@ -162,6 +162,15 @@
 
 					</div>
 				</section>
+
+				<section class="block-margin-vertical">
+					<div class="description">
+						<code>default</code>
+						<?php include('inc/lorem.php'); ?>
+
+					</div>
+				</section>
+
 			</div>
 		</div>
 	</div>
