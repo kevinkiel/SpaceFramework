@@ -1,0 +1,5 @@
+h1{
+	@include font-size(large);
+	@include line-height();
+	@include pixel-perfect(large,default);
+}

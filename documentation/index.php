@@ -15,11 +15,11 @@
 <div class="container">
 	<h2>Padding Basics</h2>
 </div>
-<div class="raster">
+<div class="bg-raster">
 	<div class="container">
 		<div class="site-margin-vertical">
 			<section class="block-margin-vertical">
-				<div class="site-padding area-padding">
+				<div class="site-padding bg-padding">
 					<div class="description">
 						<code>.site-padding</code>
 						<?php include('inc/lorem.php'); ?>
@@ -30,7 +30,7 @@
 
 			<section class="block-margin-vertical">
 
-				<div class="site-padding-horizontal area-padding">
+				<div class="site-padding-horizontal bg-padding">
 					<div class="description">
 						<code>.site-padding-horizontal</code>
 						<?php include('inc/lorem.php'); ?>
@@ -39,7 +39,7 @@
 			</section>
 
 			<section class="block-margin-vertical">
-				<div class="site-padding-vertical area-padding">
+				<div class="site-padding-vertical bg-padding">
 					<div class="description">
 						<code>.site-padding-vertical</code>
 						<?php include('inc/lorem.php'); ?>
@@ -48,7 +48,7 @@
 			</section>
 
 			<section class="block-margin-vertical">
-				<div class="site-padding-top area-padding">
+				<div class="site-padding-top bg-padding">
 					<div class="description">
 						<code>.site-padding-top</code>
 						<?php include('inc/lorem.php'); ?>
@@ -57,7 +57,7 @@
 			</section>
 
 			<section class="block-margin-vertical">
-				<div class="site-padding-right area-padding">
+				<div class="site-padding-right bg-padding">
 					<div class="description">
 						<code>.site-padding-right</code>
 						<?php include('inc/lorem.php'); ?>
@@ -66,7 +66,7 @@
 			</section>
 
 			<section class="block-margin-vertical">
-				<div class="site-padding-bottom area-padding">
+				<div class="site-padding-bottom bg-padding">
 					<div class="description">
 						<code>.site-padding-bottom</code>
 						<?php include('inc/lorem.php'); ?>
@@ -76,7 +76,7 @@
 
 
 			<section class="block-margin-vertical">
-				<div class="site-padding-left area-padding">
+				<div class="site-padding-left bg-padding">
 					<div class="description">
 						<code>.site-padding-left</code>
 						<?php include('inc/lorem.php'); ?>
@@ -89,11 +89,11 @@
 <div class="container">
 	<h2>Padding Responsive</h2>
 </div>
-<div class="raster">
+<div class="bg-raster">
 	<div class="container">
 		<div class="site-margin-vertical">
 			<section class="block-margin-vertical">
-				<div class="medium-site-padding-left area-padding">
+				<div class="medium-site-padding-left bg-padding">
 					<div class="description">
 						<code>.medium-site-padding-left</code>
 						<?php include('inc/lorem.php'); ?>
@@ -103,7 +103,7 @@
 			</section>
 
 			<section class="block-margin-vertical">
-				<div class="large-site-padding-left area-padding">
+				<div class="large-site-padding-left bg-padding">
 					<div class="description">
 						<code>.large-site-padding-left</code>
 						<?php include('inc/lorem.php'); ?>
@@ -113,7 +113,7 @@
 			</section>
 
 			<section class="block-margin-vertical">
-				<div class="small-only-site-padding-left area-padding">
+				<div class="small-only-site-padding-left bg-padding">
 					<div class="description">
 						<code>.small-only-site-padding-left</code>
 						<?php include('inc/lorem.php'); ?>
@@ -127,9 +127,9 @@
 <div class="container">
 	<h2>Margin Negative</h2>
 </div>
-<div class="raster">
-	<div class="container area-margin">
-		<div class="area-gray area-margin site-margin-horizontal">
+<div class="bg-raster">
+	<div class="container bg-margin">
+		<div class="bg-gray bg-margin site-margin-horizontal">
 			<div class="site-margin-vertical">
 				<section class="block-margin-vertical">
 					<div class="description">

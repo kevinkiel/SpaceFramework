@@ -1,0 +1,32 @@
+.bg{
+	&-raster{
+		overflow: hidden;
+
+		background-color: #269;
+		background: #ccc;
+		background-image: linear-gradient(rgba(255, 255, 255, .2) 1px, transparent 1px),
+		linear-gradient(90deg, rgba(255, 255, 255, .2) 1px, transparent 1px),
+		linear-gradient(rgba(255, 255, 255, .1) 1px, transparent 1px),
+		linear-gradient(90deg, rgba(255, 255, 255, .1) 1px, transparent 1px);
+		background-position: -1px -1px, -1px -1px, -1px -1px, -1px -1px;
+		background-size: 5rem 5rem, 5rem 5rem, 1rem 1rem, 1rem 1rem;
+	}
+
+	&-padding{
+		background: #a0e;
+		background-image: repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(255, 255, 255, .1) 5px, rgba(255, 255, 255, .1) 10px);
+	}
+
+	&-margin{
+		background: #f90;
+		background-image: repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(255, 255, 255, .1) 5px, rgba(255, 255, 255, .1) 10px);
+	}
+
+	&-gray
+	{
+		background: #333;
+		//border: 2px solid #fff;
+		background-image: repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(255, 255, 255, .1) 5px, rgba(255, 255, 255, .1) 10px);
+	}
+
+}
