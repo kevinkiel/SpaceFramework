@@ -21,6 +21,10 @@
 		<li>Font-Size</li>
 		<li>Line-Height</li>
 	</ul>
+	<p>If you have defined all your html tags / situations with pixel perfect, you don't need to use the following feature any longer:</p>
+	<ul>
+		<li>Area</li>
+	</ul>
 </div>
 <div class="bg-raster">
 	<div class="container">
@@ -49,7 +53,7 @@ h1{
 
 		<div class="site-margin-vertical">
 			<h3>situation before</h3>
-			<div class="site-padding bg-padding">
+			<div class="block-padding bg-padding">
 				<div class="bg-white bg-overflow">
 					<h1>Ornare Commodo Cras Porta Adipiscing</h1>
 					<p>Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
@@ -57,7 +61,7 @@ h1{
 				</div>
 			</div>
 			<h3>situation after <code>class="pixel-perfect"</code></h3>
-			<div class="site-padding bg-padding">
+			<div class="block-padding bg-padding">
 				<div class="bg-white bg-overflow pixel-perfect">
 					<h1>Ornare Commodo Cras Porta Adipiscing</h1>
 					<p>Maecenas faucibus mollis interdum. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi
