@@ -13,6 +13,9 @@
 	</div>
 </div>
 <div class="container">
+	<p>Space framework is build on top of Zurb's Foundation and comes with a set of generated classes, predefined classes and usefull mixins so you can build rapid fast and pixel perfect websites</p>
+</div>
+<div class="container">
 	<h2>Space</h2>
 </div>
 <div class="bg-raster">
@@ -30,7 +33,7 @@
 </div>
 
 <div class="container">
-	<h2>Typography</h2>
+	<h2>Responsive Typography</h2>
 </div>
 <div class="bg-raster">
 	<div class="container">
@@ -46,7 +49,7 @@
 </div>
 
 <div class="container">
-	<h2>Margin behavior</h2>
+	<h2>Awesome margin behavior</h2>
 </div>
 <div class="bg-raster">
 	<div class="container">
