@@ -13,164 +13,49 @@
 	</div>
 </div>
 <div class="container">
-	<h2>Padding Basics</h2>
+	<h2>Space</h2>
 </div>
 <div class="bg-raster">
 	<div class="container">
-		<div class="site-margin-vertical">
-			<section class="block-margin-vertical">
-				<div class="site-padding bg-padding">
-					<div class="description">
-						<code>.site-padding</code>
-						<?php include('inc/lorem.php'); ?>
-					</div>
-				</div>
-			</section>
-
-
-			<section class="block-margin-vertical">
-
-				<div class="site-padding-horizontal bg-padding">
-					<div class="description">
-						<code>.site-padding-horizontal</code>
-						<?php include('inc/lorem.php'); ?>
-					</div>
-				</div>
-			</section>
-
-			<section class="block-margin-vertical">
-				<div class="site-padding-vertical bg-padding">
-					<div class="description">
-						<code>.site-padding-vertical</code>
-						<?php include('inc/lorem.php'); ?>
-					</div>
-				</div>
-			</section>
-
-			<section class="block-margin-vertical">
-				<div class="site-padding-top bg-padding">
-					<div class="description">
-						<code>.site-padding-top</code>
-						<?php include('inc/lorem.php'); ?>
-					</div>
-				</div>
-			</section>
-
-			<section class="block-margin-vertical">
-				<div class="site-padding-right bg-padding">
-					<div class="description">
-						<code>.site-padding-right</code>
-						<?php include('inc/lorem.php'); ?>
-					</div>
-				</div>
-			</section>
-
-			<section class="block-margin-vertical">
-				<div class="site-padding-bottom bg-padding">
-					<div class="description">
-						<code>.site-padding-bottom</code>
-						<?php include('inc/lorem.php'); ?>
-					</div>
-				</div>
-			</section>
-
-
-			<section class="block-margin-vertical">
-				<div class="site-padding-left bg-padding">
-					<div class="description">
-						<code>.site-padding-left</code>
-						<?php include('inc/lorem.php'); ?>
-					</div>
-				</div>
-			</section>
+		<div class="row">
+			<div class="column">
+				<ul>
+					<li><a href="/documentation/pages/space-padding.php">Space Padding</a></li>
+					<li><a href="/documentation/pages/space-margin.php">Space Margin (coming)</a></li>
+					<li><a href="/documentation/pages/space-position.php">Space Position (coming)</a></li>
+				</ul>
+			</div>
 		</div>
 	</div>
 </div>
+
 <div class="container">
-	<h2>Padding Responsive</h2>
+	<h2>Typography</h2>
 </div>
 <div class="bg-raster">
 	<div class="container">
-		<div class="site-margin-vertical">
-			<section class="block-margin-vertical">
-				<div class="medium-site-padding-left bg-padding">
-					<div class="description">
-						<code>.medium-site-padding-left</code>
-						<?php include('inc/lorem.php'); ?>
-
-					</div>
-				</div>
-			</section>
-
-			<section class="block-margin-vertical">
-				<div class="large-site-padding-left bg-padding">
-					<div class="description">
-						<code>.large-site-padding-left</code>
-						<?php include('inc/lorem.php'); ?>
-
-					</div>
-				</div>
-			</section>
-
-			<section class="block-margin-vertical">
-				<div class="small-only-site-padding-left bg-padding">
-					<div class="description">
-						<code>.small-only-site-padding-left</code>
-						<?php include('inc/lorem.php'); ?>
-
-					</div>
-				</div>
-			</section>
+		<div class="row">
+			<div class="column">
+				<ul>
+					<li><a href="#">Font-size (coming)</a></li>
+					<li><a href="#">Line-height (coming)</a></li>
+				</ul>
+			</div>
 		</div>
 	</div>
 </div>
+
 <div class="container">
-	<h2>Margin Negative</h2>
+	<h2>Margin behavior</h2>
 </div>
 <div class="bg-raster">
-	<div class="container bg-margin">
-		<div class="bg-gray bg-margin site-margin-horizontal">
-			<div class="site-margin-vertical">
-				<section class="block-margin-vertical">
-					<div class="description">
-						<code>default</code>
-						<?php include('inc/lorem.php'); ?>
-
-					</div>
-				</section>
-
-				<section class="block-margin-vertical site-margin-left-negative">
-					<div class="description">
-						<code>.site-margin-left-negative</code>
-						<?php include('inc/lorem.php'); ?>
-
-					</div>
-				</section>
-
-				<section class="block-margin-vertical site-margin-right-negative">
-					<div class="description">
-						<code>.site-margin-right-negative</code>
-						<?php include('inc/lorem.php'); ?>
-
-					</div>
-				</section>
-
-				<section class="block-margin-vertical site-margin-horizontal-negative">
-					<div class="description">
-						<code>.site-margin-horizontal-negative</code>
-						<?php include('inc/lorem.php'); ?>
-
-					</div>
-				</section>
-
-				<section class="block-margin-vertical">
-					<div class="description">
-						<code>default</code>
-						<?php include('inc/lorem.php'); ?>
-
-					</div>
-				</section>
-
+	<div class="container">
+		<div class="row">
+			<div class="column">
+				<ul>
+					<li><a href="/documentation/pages/area.php">Area</a></li>
+					<li><a href="/documentation/pages/pixel-perfect.php">Pixel Perfect</a></li>
+				</ul>
 			</div>
 		</div>
 	</div>
