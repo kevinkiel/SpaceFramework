@@ -8,7 +8,7 @@
 <div class="main-header">
 	<div class="container">
 		<div class="block-padding-vertical">
-			<h1><span class="title">SpaceFramework</span> <br>Documentation</h1>
+			<h1 class="hero-title"><span class="title">SpaceFramework</span> <br>Documentation</h1>
 		</div>
 	</div>
 </div>

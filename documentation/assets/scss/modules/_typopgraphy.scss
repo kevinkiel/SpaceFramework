@@ -1,5 +1,11 @@
 h1{
-	@include font-size(large);
+	@include font-size(xlarge);
+	@include line-height(small);
+	@include pixel-perfect(large,small);
+	font-weight: 300;
+}
+
+p{
 	@include line-height();
-	@include pixel-perfect(large,default);
+	@include pixel-perfect();
 }
